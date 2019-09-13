@@ -7,17 +7,17 @@ from datetime import datetime
 
 mydb = mysql.connector.connect(
     host="localhost",
-    user="ali",
-    passwd="nyk",
-    database="seculab"
+    user="xxx",
+    passwd="xxx",
+    database="xxxxxxx"
 )
 
 sts = 0
 mycursor = mydb.cursor()
 myc = mydb.cursor()
-mycursor.execute("Select * from asisten")
+mycursor.execute("Select * from xxxxx")
 myresult = mycursor.fetchall()
-bot_token = '927752450:AAHMdTm4SgCs7cA-xtryArMw4GbHyJuk-1w'
+bot_token = 'xxxxxxxxxxxxx'
 
 
 def telegram_bot_sendtext():
