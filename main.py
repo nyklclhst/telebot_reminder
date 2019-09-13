@@ -9,7 +9,6 @@ mydb = mysql.connector.connect(
     host="localhost",
     user="xxx",
     passwd="xxx",
-    passwd="xxxx",
     database="xxxxxxx"
 )
 
@@ -18,7 +17,6 @@ mycursor = mydb.cursor()
 myc = mydb.cursor()
 mycursor.execute("Select * from xxxxx")
 myresult = mycursor.fetchall()
-bot_token = 'xxxxxxxxxxxxx'
 bot_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 
