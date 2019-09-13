@@ -8,11 +8,8 @@ from datetime import datetime
 mydb = mysql.connector.connect(
     host="localhost",
     user="xxx",
-<<<<<<< HEAD
     passwd="xxx",
-=======
     passwd="xxxx",
->>>>>>> 32f27829c0d0af6fa1d05144d1c46d90785555c0
     database="xxxxxxx"
 )
 
@@ -21,11 +18,8 @@ mycursor = mydb.cursor()
 myc = mydb.cursor()
 mycursor.execute("Select * from xxxxx")
 myresult = mycursor.fetchall()
-<<<<<<< HEAD
 bot_token = 'xxxxxxxxxxxxx'
-=======
 bot_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
->>>>>>> 32f27829c0d0af6fa1d05144d1c46d90785555c0
 
 
 def telegram_bot_sendtext():
